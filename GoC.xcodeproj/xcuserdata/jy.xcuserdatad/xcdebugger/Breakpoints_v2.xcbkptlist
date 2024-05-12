@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "92C6CE4A-DDE2-47E1-ADB6-32D601A4C644"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3B3DDA9-812A-4625-8EC7-00CED77DB609"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoC/CameraViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "fetchImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A3B3DDA9-812A-4625-8EC7-00CED77DB609 - b13b67c4eff509f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "320"
+                  endingLineNumber = "320"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "A3B3DDA9-812A-4625-8EC7-00CED77DB609 - b13b67c4eff509f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "320"
+                  endingLineNumber = "320"
+                  offsetFromSymbolStart = "996">
+               </Location>
+               <Location
+                  uuid = "A3B3DDA9-812A-4625-8EC7-00CED77DB609 - b13b67c4eff50b2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "334"
+                  endingLineNumber = "334"
+                  offsetFromSymbolStart = "996">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DACCA552-CE12-4946-8692-7CEEFB43F108"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoC/CameraViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "332"
+            endingLineNumber = "332"
+            landmarkName = "fetchImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DACCA552-CE12-4946-8692-7CEEFB43F108 - b13b67c4eff50919"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "319"
+                  endingLineNumber = "319"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  uuid = "DACCA552-CE12-4946-8692-7CEEFB43F108 - b13b67c4eff50919"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "319"
+                  endingLineNumber = "319"
+                  offsetFromSymbolStart = "744">
+               </Location>
+               <Location
+                  uuid = "DACCA552-CE12-4946-8692-7CEEFB43F108 - b13b67c4eff5093a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "318"
+                  endingLineNumber = "318"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "DACCA552-CE12-4946-8692-7CEEFB43F108 - b13b67c4eff50b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "332"
+                  endingLineNumber = "332"
+                  offsetFromSymbolStart = "800">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81EF20EA-A33E-4650-8EE0-B8EFB8C8ED3B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoC/CameraViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "319"
+            endingLineNumber = "319"
+            landmarkName = "fetchImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "81EF20EA-A33E-4650-8EE0-B8EFB8C8ED3B - 62ac4ee20d071704"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "307"
+                  endingLineNumber = "307"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "81EF20EA-A33E-4650-8EE0-B8EFB8C8ED3B - 62ac4ee20d071746"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "305"
+                  endingLineNumber = "305"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "81EF20EA-A33E-4650-8EE0-B8EFB8C8ED3B - 62ac4ee20d0719b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoC.ImageFetcher.fetchImage() -&gt; ()"
+                  moduleName = "GoC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jy/Documents/GoC/GoC/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "319"
+                  endingLineNumber = "319"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

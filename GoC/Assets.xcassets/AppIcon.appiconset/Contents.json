@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "DALL·E 2024-05-11 23.28.51 - Design a sophisticated iOS app icon for an AI photo app, tailored to Apple's standards. The icon should showcase a bold and simple geometric camera le.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,310 @@
+{"prompt":{
+  "453": {
+    "inputs": {
+      "enabled": true,
+      "swap_model": "inswapper_128.onnx",
+      "facedetection": "retinaface_resnet50",
+      "face_restore_model": "GFPGANv1.4.pth",
+      "face_restore_visibility": 1,
+      "codeformer_weight": 0.5,
+      "detect_gender_input": "no",
+      "detect_gender_source": "no",
+      "input_faces_index": "0",
+      "source_faces_index": "0",
+      "console_log_level": 1,
+      "source_image": [
+        "455",
+        0
+      ],
+      "input_image": [
+        "603",
+        0
+      ]
+    },
+    "class_type": "ReActorFaceSwap",
+    "_meta": {
+      "title": "ReActor 🌌 Fast Face Swap"
+    }
+  },
+  "455": {
+    "inputs": {
+      "image": "face.png",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "513": {
+    "inputs": {
+      "image": "man on grey background_.png.png",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "514": {
+    "inputs": {
+      "images": [
+        "453",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "550": {
+    "inputs": {
+      "image": "AD Example 01_text2.png",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "552": {
+    "inputs": {
+      "images": [
+        "553",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "553": {
+    "inputs": {
+      "x": 0,
+      "y": 0,
+      "resize_source": true,
+      "destination": [
+        "550",
+        0
+      ],
+      "source": [
+        "453",
+        0
+      ],
+      "mask": [
+        "550",
+        1
+      ]
+    },
+    "class_type": "ImageCompositeMasked",
+    "_meta": {
+      "title": "ImageCompositeMasked"
+    }
+  },
+  "563": {
+    "inputs": {
+      "preset_expr": "#Female < #Male",
+      "manual_expr": "",
+      "classifier": [
+        "564",
+        0
+      ],
+      "segs": [
+        "569",
+        0
+      ]
+    },
+    "class_type": "ImpactSEGSClassify",
+    "_meta": {
+      "title": "SEGS Classify"
+    }
+  },
+  "564": {
+    "inputs": {
+      "preset_repo_id": "NTQAI/pedestrian_gender_recognition",
+      "manual_repo_id": "",
+      "device_mode": "AUTO"
+    },
+    "class_type": "ImpactHFTransformersClassifierProvider",
+    "_meta": {
+      "title": "HF Transformers Classifier Provider"
+    }
+  },
+  "566": {
+    "inputs": {
+      "segs": [
+        "563",
+        0
+      ]
+    },
+    "class_type": "ImpactIsNotEmptySEGS",
+    "_meta": {
+      "title": "SEGS isn't Empty"
+    }
+  },
+  "569": {
+    "inputs": {
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 0,
+      "crop_factor": 3,
+      "drop_size": 10,
+      "sub_threshold": 0.5,
+      "sub_dilation": 0,
+      "sub_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "post_dilation": 0,
+      "bbox_detector": [
+        "576",
+        0
+      ],
+      "image": [
+        "455",
+        0
+      ],
+      "sam_model_opt": [
+        "577",
+        0
+      ]
+    },
+    "class_type": "ImpactSimpleDetectorSEGS",
+    "_meta": {
+      "title": "Simple Detector (SEGS)"
+    }
+  },
+  "576": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "UltralyticsDetectorProvider"
+    }
+  },
+  "577": {
+    "inputs": {
+      "model_name": "sam_vit_b_01ec64.pth",
+      "device_mode": "AUTO"
+    },
+    "class_type": "SAMLoader",
+    "_meta": {
+      "title": "SAMLoader (Impact)"
+    }
+  },
+  "603": {
+    "inputs": {
+      "boolean": [
+        "566",
+        0
+      ],
+      "image_a": [
+        "513",
+        0
+      ],
+      "image_b": [
+        "604",
+        0
+      ]
+    },
+    "class_type": "Image Input Switch",
+    "_meta": {
+      "title": "Image Input Switch"
+    }
+  },
+  "604": {
+    "inputs": {
+      "image": "woman on grey background_.png",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "607": {
+    "inputs": {
+      "output_path": "",
+      "filename_prefix": "output",
+      "filename_delimiter": "_",
+      "filename_number_padding": 1,
+      "filename_number_start": "false",
+      "extension": "png",
+      "quality": 100,
+      "lossless_webp": "false",
+      "overwrite_mode": "prefix_as_filename",
+      "show_history": "false",
+      "show_history_by_prefix": "false",
+      "embed_workflow": "false",
+      "show_previews": "false",
+      "images": [
+        "553",
+        0
+      ]
+    },
+    "class_type": "Image Save",
+    "_meta": {
+      "title": "Image Save"
+    }
+  },
+  "608": {
+    "inputs": {
+      "images": [
+        "609",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "609": {
+    "inputs": {
+      "x": 0,
+      "y": 0,
+      "resize_source": true,
+      "destination": [
+        "550",
+        0
+      ],
+      "source": [
+        "603",
+        0
+      ],
+      "mask": [
+        "550",
+        1
+      ]
+    },
+    "class_type": "ImageCompositeMasked",
+    "_meta": {
+      "title": "ImageCompositeMasked"
+    }
+  },
+  "610": {
+    "inputs": {
+      "output_path": "",
+      "filename_prefix": "original",
+      "filename_delimiter": "_",
+      "filename_number_padding": 1,
+      "filename_number_start": "false",
+      "extension": "png",
+      "quality": 100,
+      "lossless_webp": "false",
+      "overwrite_mode": "prefix_as_filename",
+      "show_history": "false",
+      "show_history_by_prefix": "false",
+      "embed_workflow": "false",
+      "show_previews": "false",
+      "images": [
+        "609",
+        0
+      ]
+    },
+    "class_type": "Image Save",
+    "_meta": {
+      "title": "Image Save"
+    }
+  }
+}}
