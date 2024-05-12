@@ -1,8 +1,8 @@
-# Hackathon Hero
+# Go Cheap
 
 ## Overview
 
-Welcome to **Hackathon Hero**! This project was created during the Beeloud and Build AI 2024 as a proof-of-concept to tackle personalized advertisement content. This is sample app to collect user's feedback to understand their preference. It is built rapidly with an emphasis on showcasing potential rather than perfecting code quality.
+Welcome to **Go Cheap**! This project was created during the Beeloud and Build AI 2024 as a proof-of-concept to tackle personalized advertisement content. This is sample app to collect user's feedback to understand their preference. It is built rapidly with an emphasis on showcasing potential rather than perfecting code quality.
 
 ## :warning: Disclaimer
 
